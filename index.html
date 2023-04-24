@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,22 @@
     <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
     <title>STPA-Kranco</title>
 </head>
+
 <body>
-    <div id="container">Página 0</div>
-    <div id="ct1">
-        <button id="bt1" value="1">Botón 1</button>
+    <div class="d-flex p-2 justify-content-center bg-secondary-subtle" style="height: 700px;">
+        <div class="d-flex card w-50 h-75">
+            <div id="image" class="d-flex align-self-center">
+                <img src="android-chrome-192x192.png">
+            </div>  
+            <div id="text" class="d-flex align-self-center flex-fill my-auto justify-content-center p-2">Página 0</div>
+            <div id="ct1" class="d-flex justify-content-center mt-auto flex-column p-2">
+                <button id="bt1" value="0" class="btn btn-secondary mb-1">Botón 1</button>
+                <button id="bt2" value="0" class="btn btn-secondary mt-1">Botón 2</button>
+            </div>
+        </div>
     </div>
-    <div id="ct2">
-        <button id="bt2" value="2">Botón 2</button>
-    </div>
-    <div id="ct3">
-        <button id="bt3" value="3">Botón 3</button>
-    </div>
-    
     <script src="min.js"></script>
     <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
 </body>
+
 </html>
