@@ -4,7 +4,7 @@ var bt1 = document.querySelector('#bt1');
 var bt2 = document.querySelector('#bt2');
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    let btVal = 0;
+    let btVal = 1;
     let stpa = STPA.pagina[btVal];
 
     text.innerHTML = '<div class="pg">'+stpa.text+'</div>';
